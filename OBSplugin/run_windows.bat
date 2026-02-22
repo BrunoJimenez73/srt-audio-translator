@@ -9,6 +9,8 @@ if not exist venv (
 
 :: Activar entorno virtual e instalar dependencias
 call venv\Scripts\activate
+echo Actualizando pip...
+python -m pip install --upgrade pip
 echo Instalando/Actualizando dependencias (esto puede tardar la primera vez)...
 pip install -r requirements.txt
 

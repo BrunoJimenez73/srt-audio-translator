@@ -5,3 +5,4 @@ edge-tts
 webrtcvad
 numpy
 pydantic
+setuptools<70
